@@ -1,13 +1,53 @@
 body{
-    background-color: whitesmoke;
+    background-color: beige;
 }
-form{
-    border: 2px solid black;
-    height: 500px;
-    width: 400px;
-    background-color: aquamarine;
-    text-align: center;
-    border-radius: 5px;
+.container{
+    border: 1px solid wheat;
     background-color: white;
-    margin-left: 50%;
+    text-align: center;
+    height: 350px;
+    width: 450px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+p{
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+.email{
+    padding: 10;
+    width: 400px;
+    border-radius: 5px;
+    margin:10px
+}
+.password{
+ padding: 10;
+    width: 400px;
+    border-radius: 5px;
+    margin: 10px;
+    margin-top: 1px;
+}
+.login{
+ padding: 10;
+    width: 400px;
+    border-radius: 5px;
+    margin: 10px;
+    margin-top: 1px;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.new{
+    padding: 10;
+    width: 200px;
+    border-radius: 5px;
+    margin: 10px;
+    margin-top: 15px;
+    background-color: green;
+    color: white;
+    font-size: 15px;
+    font-weight: bold
 }
